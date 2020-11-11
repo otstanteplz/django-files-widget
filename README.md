@@ -50,7 +50,7 @@ Quick Start
 
 ### Install ###
 
-    pip install git+git://github.com/TND/django-files-widget.git
+    pip install git+git://github.com/otstanteplz/django-files-widget
 
 ### In `settings.py` ###
 
