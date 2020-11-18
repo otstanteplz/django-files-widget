@@ -19,7 +19,7 @@
         define(['jquery'], factory);
     } else {
         // Browser globals:
-        factory(window.django.jQuery);
+        factory(django.jQuery);
     }
 }(function ($) {
     'use strict';
