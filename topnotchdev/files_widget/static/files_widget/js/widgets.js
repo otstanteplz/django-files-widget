@@ -403,7 +403,6 @@ $(function(){
             }
         });
         
-        dropbox.disableSelection();
         dropbox.bind('dragover', function (e) {
             dropbox.addClass('dragover');
         }).bind('dragleave drop', function (e) {
