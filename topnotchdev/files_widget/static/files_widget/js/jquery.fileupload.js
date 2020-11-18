@@ -22,7 +22,7 @@
         ], factory);
     } else {
         // Browser globals:
-        factory(window.jQuery);
+        factory(window.django.jQuery);
     }
 }(function ($) {
     'use strict';

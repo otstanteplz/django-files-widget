@@ -23,7 +23,7 @@
     } else {
         // Browser globals:
         factory(
-            window.jQuery
+            window.django.jQuery
         );
     }
 }(function ($) {
